@@ -1,11 +1,12 @@
 import React from 'react';
 import GlobalStyle from './assets/globalStyles';
+import LandingPage from './pages/LandingPage';
 
 function App() {
   return (
     <>
       <GlobalStyle />
-      <div>Hello Manual World!</div>
+      <LandingPage />
     </>
   );
 }
