@@ -26,6 +26,10 @@ module.exports = {
         exclude: /node_modules/,
         use: 'babel-loader',
       },
+      {    
+        test: /\.(woff|woff2|eot|ttf|otf)$/,
+        loader: "file-loader"
+      }
     ],
   },
 };
