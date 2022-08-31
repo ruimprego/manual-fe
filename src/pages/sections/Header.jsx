@@ -28,7 +28,7 @@ const SmallLogo = styled(Logo)`
     width: 40px;
 `;
 
-function Header() {
+function Header({ onClick }) {
   return (
     <MainContainer>
       <SmallLogo />
@@ -39,7 +39,7 @@ function Header() {
           From top to bottom, inside and out.
         </div>
       </TextContainer>
-      <Button />
+      <Button onClick={onClick} />
     </MainContainer>
   );
 }

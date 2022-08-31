@@ -13,8 +13,8 @@ const ButtonContainer = styled.span`
     cursor: pointer;
 `;
 
-function Button() {
-  return <ButtonContainer>Take the quiz</ButtonContainer>;
+function Button({ onClick }) {
+  return <ButtonContainer onClick={onClick}>Take the quiz</ButtonContainer>;
 }
 
 export default Button;

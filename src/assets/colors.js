@@ -15,6 +15,9 @@ const theme = {
     buttons: '#7E0707',
     separator: '#BDCDC5',
   },
+  option: {
+    border: '#BDCDC5',
+  },
 };
 
 export default theme;
