@@ -34,11 +34,19 @@ const InformationContainer = styled.div`
     width: 590px;
     padding-top: 40px;
     font-family: 'TTNorms Medium';
+    
+    @media (max-width: 900px) {
+        width: 90vw;
+    }
 `;
 
 const ButtonsContainer = styled.div`
     display: flex;
     width: 720px;
+
+    @media (max-width: 900px) {
+        width: 90vw;
+    }
 `
 
 function Quizz({ show, close }) {
@@ -83,7 +91,7 @@ function Quizz({ show, close }) {
             ? (
                 <InformationContainer>
                 Great news! We have the perfect treatment for your
-                hair loss. Proceed to
+                hair loss. Proceed to 
                 <a href="www.manual.co">www.manual.co</a>
                 , and prepare to say hello to your new hair!
                 </InformationContainer>

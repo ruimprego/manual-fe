@@ -15,6 +15,10 @@ const Title = styled.div`
     font-size: 40px;
     font-family: 'TTNorms Medium';
     margin-bottom: 70px;
+
+    @media (max-width: 900px) {
+      font-size: 30px;
+    }
 `;
 
 const CardsContainer = styled.div`

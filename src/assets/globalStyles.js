@@ -23,6 +23,12 @@ const GlobalStyle = createGlobalStyle`
     color: ${theme.global.text};
     font-family: "TTNorms", Open-Sans, Helvetica, Sans-Serif;
     font-size: 18px;
+    box-sizing: border-box;
+
+    @media (max-width: 720px) {
+      font-size: 10pt;
+    }
+
   }
 `;
 

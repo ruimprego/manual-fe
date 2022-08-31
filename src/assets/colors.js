@@ -18,6 +18,9 @@ const theme = {
   option: {
     border: '#BDCDC5',
   },
+  header: {
+    background: '#a4b59e',
+  }
 };
 
 export default theme;

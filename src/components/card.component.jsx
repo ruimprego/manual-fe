@@ -26,7 +26,11 @@ const CardSubtitle = styled.div`
 
 const CardText = styled.div``;
 
-const ImageContainer = styled.img``;
+const ImageContainer = styled.img`
+  @media (max-width: 900px){
+    display: none;
+  }
+`;
 
 const TextContainer = styled.div`
     width: 372px;
@@ -39,6 +43,10 @@ const TextContainer = styled.div`
             margin-left: 0;
             margin-right: 123px;
     `}
+
+    @media (max-width: 900px){
+        margin: 0;
+      }
 `;
 
 const BackgroundNumber = styled.div`
@@ -49,6 +57,11 @@ const BackgroundNumber = styled.div`
     margin: 0 275px;
     font-family: 'TTNorms Medium';
     top: -30px;
+
+    @media (max-width: 900px) {
+      margin: 0;
+      font-size: 200pt;
+    }
 `;
 
 function Card(props) {
